@@ -13,4 +13,6 @@ router.put('/:id', productController.updateById)
 
 router.delete('/:id', productController.deleteById)
 
+router.patch('/', productController.buy)
+
 module.exports = router
